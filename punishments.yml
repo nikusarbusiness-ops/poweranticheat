@@ -1,0 +1,7 @@
+# Automatic punishments are disabled by default. Review evidence and tune thresholds first.
+enabled: false
+actions:
+  warn: 8
+  kick: 16
+  tempban: 30
+  ban: 50

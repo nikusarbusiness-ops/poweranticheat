@@ -1,0 +1,23 @@
+settings:
+  # Be conservative: this starter build records evidence but does not auto-ban.
+  alerts-enabled-by-default: true
+  replay-retention-days: 14
+  max-replay-events-per-player: 5000
+  tps-warning-threshold: 18.0
+  minimum-ping-sample: 0
+punishments:
+  enabled: false
+  # Enable only after tuning/testing on your server.
+  thresholds:
+    warn: 8
+    kick: 16
+    tempban: 30
+checks:
+  # Detection modules are deliberately conservative starter signals, not proof of cheating.
+  movement:
+    enabled: true
+    suspicious-horizontal-speed: 1.25
+  combat:
+    enabled: true
+  player:
+    enabled: true

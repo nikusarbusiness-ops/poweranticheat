@@ -1,0 +1,24 @@
+name: PowerCheat
+version: 1.0.0
+main: de.powercheat.PowerCheat
+api-version: '1.21'
+author: PowerCheat
+description: Modular SMP anti-cheat framework with staff tools and event replays.
+commands:
+  ac:
+    description: PowerCheat staff commands
+    usage: /ac <alerts|info|checks|reload|violations>
+  PowerCheat:
+    description: Open the PowerCheat administration menu
+    usage: /PowerCheat
+    aliases: [pc]
+  cheatReplay:
+    description: Browse saved PowerCheat replay records
+    usage: /cheatReplay [player]
+permissions:
+  powercheat.admin:
+    default: op
+  powercheat.alerts:
+    default: op
+  powercheat.replay:
+    default: op

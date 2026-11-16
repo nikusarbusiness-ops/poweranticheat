@@ -1,0 +1,22 @@
+checks:
+  killaura: { enabled: true, vl: 2.0 }
+  aimassist: { enabled: true, vl: 1.0 }
+  reach: { enabled: true, vl: 2.0 }
+  autoclicker: { enabled: true, vl: 1.0 }
+  criticals: { enabled: true, vl: 1.0 }
+  velocity: { enabled: true, vl: 1.0 }
+  hitbox: { enabled: true, vl: 1.0 }
+  fly: { enabled: true, vl: 2.0 }
+  speed: { enabled: true, vl: 1.0 }
+  nofall: { enabled: true, vl: 1.0 }
+  jesus: { enabled: true, vl: 1.0 }
+  spider: { enabled: true, vl: 1.0 }
+  step: { enabled: true, vl: 1.0 }
+  longjump: { enabled: true, vl: 1.0 }
+  antiknockback: { enabled: true, vl: 1.0 }
+  inventorymove: { enabled: true, vl: 1.0 }
+  scaffold: { enabled: true, vl: 1.0 }
+  fastplace: { enabled: true, vl: 1.0 }
+  fastbreak: { enabled: true, vl: 1.0 }
+  timer: { enabled: true, vl: 1.0 }
+  badpackets: { enabled: true, vl: 1.0 }
